@@ -183,8 +183,7 @@ fun codidoFuncional(){
 }
 
 fun codigoDesfuncional(){
-    println("continua ou p?")
-    var o = readln();
+    var o = "";
     while (o.lowercase() != "p"){
         println("continua ou p?")
         o = readln();
